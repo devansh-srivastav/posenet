@@ -1,19 +1,37 @@
 {
-  "name": "posenet",
-  "version": "0.1.0",
-  "private": true,
   "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "name": "posenet",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
+    "@tensorflow-models/posenet": "^2.2.2",
+    "@tensorflow/tfjs": "^3.9.0",
+    "@tensorflow/tfjs-node": "^3.9.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
     "next": "11.1.2",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-scripts": "4.0.3",
+    "react-webcam": "^6.0.0",
+    "web-vitals": "^1.1.2"
   },
   "devDependencies": {
+    "@layer0/cli": "^3.16.11",
+    "@layer0/core": "^3.16.11",
+    "@layer0/devtools": "^3.16.11",
+    "@layer0/next": "^3.16.11",
+    "@layer0/prefetch": "^3.16.11",
+    "@layer0/react": "^3.16.11",
     "eslint": "7.32.0",
     "eslint-config-next": "11.1.2"
   }
